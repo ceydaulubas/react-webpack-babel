@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React App</title>
+  <style>
+
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+}
+    /* Search for Customer Name */
+    .customerNameSearch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border: 2px solid;
+
+    }
+
+    /* Insurance Form Style*/
+    .form {
+      background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg") center center no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      font-size: 20px;
+    }
+
+    .insuranceForm {
+      background-color: rgba(224, 219, 189, 0.774);
+      padding: 50px 100px;
+      border-top: 10px solid rgba(224, 90, 27, 0.418)
+    }
+
+    label,
+    input {
+      width: 50%;
+    }
+
+    .insuraceFormButton {
+      float: right;
+      line-height: 40px;
+      padding: 0 20px;
+      border: none;
+      background: rgba(224, 90, 27, 0.418);
+      ;
+      color: rgb(247, 242, 240);
+      letter-spacing: 2px;
+      transition: .2s all ease-in-out;
+      border-bottom: 2px solid transparent;
+      outline: none;
+    }
+
+    .insuraceFormButton:focus {
+      background-color: rgb(57, 5, 99);
+    }
+
+    /* Insurance Box Style-Layout*/
+    /* Expenses Table */
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .table {
+      width: 100%;
+      border: 1px solid#978989;
+    }
+
+    .table-header {
+      display: flex;
+      width: 100%;
+      background: #000;
+      padding: (12px * 1.5) 0;
+    }
+
+    .table-row {
+      display: flex;
+      width: 100%;
+      padding: (12px * 1.5) 0;
+    }
+
+    .table-row:nth-of-type(odd) {
+      background: #eeeeee;
+    }
+
+    .table-data,
+    .header__item {
+      flex: 1 1 20%;
+      text-align: center;
+
+    }
+
+    .header__item {
+      text-transform: uppercase;
+    }
+
+    .filter__link {
+      color: white;
+      text-decoration: none;
+      position: relative;
+      display: inline-block;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    /* Firms' info part */
+    .box {
+      border-style: solid;
+      margin-top: 5%;
+      background-color: white;
+    }
+
+    hr {
+      width: 50%;
+      float: left;
+    }
+
+    .mainFirm {
+      width: 50%;
+      padding-left: 34px;
+    }
+
+    .customerFirm {
+      width: 50%;
+      padding-left: 34px;
+    }
+
+    .firmlogo {
+      width: 70px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      max-width: 50%;
+    }
+
+    .invoiceDetailForm {
+      float: right;
+      margin: 5%;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      padding: 5px;
+    }
+
+    /* Adding Insurance Button */
+    .addInsuranceButton {
+      margin-left: 50%;
+      margin-bottom: 1%;
+      margin-top: 2%;
+      line-height: 40px;
+      padding: 0 20px;
+      background-color: rgba(224, 89, 27, 0.171);
+      letter-spacing: 2px;
+      transition: .2s all ease-in-out;
+    }
+
+    .addInsuranceButton:focus {
+      background-color: rgb(209, 205, 212);
+    }
+
+    footer{
+      margin-top: 5%;
+      background-color:#343a40;
+      color: white;
+      height: 50px;
+      text-align: center;
+      padding: 12px;
+      width: 100%;
+    }
+
+    /* Show payment Situation part in insurance box */
+
+  .paymentSituation{
+    width: 50%;
+    border: 5px solid rgba(224, 90, 27, 0.418);
+    margin: 2%;
+    
+  }
+  .paymentSituationLabel{
+    text-align: center;
+  }
+
+/* Payment Situation Part in Insurance Box */
+
+.paymentSituation{
+  border:2px solid grey; 
+  width: 20%; 
+}
+
+.paymentSituationHead{
+  margin-left: 3%;
+}
+
+.paidButton{
+      line-height: 40px;
+      background: rgb(202, 192, 192);
+      letter-spacing: 2px;
+      transition: .2s all ease-in-out;
+      border: 2px solid grey;
+      outline: none;
+      margin-left: 3%;
+      margin-bottom: 3%;
+}
+
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

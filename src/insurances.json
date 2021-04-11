@@ -1,0 +1,45 @@
+[
+    {
+      "companyName": "Google",
+      "companyAdress":"Mountain View, California, United States",
+      "companyWebPage":"https://www.google.com/",
+      "companyPhonoNum": 6502530000,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+      "customerName":"Cousins Factory",
+      "customerAdress":"Istanbul",
+      "customerWebPage": "https://cousinsfactory.com/",
+      "customerPhoneNum": 905349687726,
+      "customerLogo":"https://mir-s3-cdn-cf.behance.net/projects/404/022de497956923.Y3JvcCw4MDgsNjMyLDAsMA.jpg",
+      "randomInvoicenum":95,
+      "invoiceDate": "2021-04-08",
+      "supplyDate":"2021-04-09",
+      "purchaseOrderNumber" :"12364",
+      "labourExpenses":50,
+      "materialExpenses":10,
+      "outsourcing":1500,
+      "otherExpenses": 100,
+      "paymentTerm":"CWO- Cash with order"
+    },
+    {
+      "companyName": "Google",
+      "companyAdress":"Mountain View, California, United States",
+      "companyWebPage":"https://www.google.com/",
+      "companyPhonoNum": 6502530000,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+      "customerName":"Twitter",
+      "customerAdress":"Istanbul",
+      "customerWebPage": "https://twitter.com/",
+      "customerPhoneNum": 905378957725,
+      "customerLogo": "data:image/png;base64,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",
+      "randomInvoicenum":71,
+      "invoiceDate": "2021-04-06",
+      "supplyDate":"2021-04-17",
+      "purchaseOrderNumber" :"968752",
+      "labourExpenses":40,
+      "materialExpenses":10,
+      "outsourcing":200,
+      "otherExpenses": 5600,
+      "paymentTerm":"EOM- End of month"
+    }
+  ]
+  
