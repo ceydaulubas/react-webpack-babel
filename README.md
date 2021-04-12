@@ -7,8 +7,6 @@ This project was generated with React, webpack and babel.
 
 ## Preparation 
 
--I setup my own configuration in my own way. <br/>
-
 Step 1: Firstly create a folder called react-webpack-babel (you can give name what you want) and navigate inside that folder in our command-line tool like Terminal. <br/>
 Step 2: `npm init -y` <br/>
 Step 3: `npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin clean-webpack-plugin` -> Now you can see packages has been added as devDependencies inside package.json file.<br/>
